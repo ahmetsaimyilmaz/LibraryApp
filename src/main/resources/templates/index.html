@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}"/>
+</head>
+<body>
+<div class ="container-fluid text-center">
+    <h1>Lorem Ipsum</h1>
+
+    <a class="h5" th:href="@{/book/listofbooks}">Library</a>
+    <br>
+    <a class="h5" th:href="@{/customer/listofcustomers}">Manage Users</a>
+    <br>
+    <a class="h5" th:href="@{/logout}">Logout</a>
+
+
+</div>
+</body>
+</html>
